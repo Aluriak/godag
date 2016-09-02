@@ -1,0 +1,26 @@
+# GO DAG extractor
+
+Just get the GO term DAG, and save it as json.
+
+
+## requirements
+First:
+
+    pip install -r requirements
+
+Second: as the fisher module is not ported to python 3,
+you will need to install it through ([source](ihttps://github.com/tanghaibao/goatools/issues/49)):
+
+    pip3 install git+https://github.com/brentp/fishers_exact_test.git
+
+## usage
+
+    python godag.py godag.json
+
+To get id instead of names:
+
+    python godag.py godag.json --use_id
+
+To get a mapping id:name:
+
+    python godag.py godag.json id2name.json

@@ -1,0 +1,6 @@
+venv/
+.env
+*.vim
+*.pyc
+__pycache__/
+*.json
