@@ -1,6 +1,9 @@
-OUTPUT=output.json
-IDNAME=mapping.json
+OUTPUT=output/godag
+IDNAME=output/mapping
 USE_ID=--use_id
 
-all:
-	python godag.py $(OUTPUT) $(IDNAME) $(USE_ID)
+json:
+	python godag.py $(OUTPUT).json $(IDNAME).json $(USE_ID) --json
+
+dsv:
+	python godag.py $(OUTPUT).dsv $(IDNAME).dsv $(USE_ID)
