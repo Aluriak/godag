@@ -1,6 +1,7 @@
 # GO DAG extractor
 
 Just get the GO term DAG, and save it as json.
+Heavily inspired by [this biostars answer](https://www.biostars.org/p/1169/#1177)
 
 
 ## requirements
