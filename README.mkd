@@ -16,12 +16,14 @@ you will need to install it through ([source](ihttps://github.com/tanghaibao/goa
 
 ## usage
 
-    python godag.py godag.json
+    python godag.py godag.json --json
 
 To get id instead of names:
 
-    python godag.py godag.json --use_id
+    python godag.py godag.json --use_id  --json
 
 To get a mapping id:name:
 
-    python godag.py godag.json id2name.json
+    python godag.py godag.json id2name.json --json
+
+To get a DSV formatted file, just remove the `--json` flag.
